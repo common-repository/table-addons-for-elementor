@@ -1,0 +1,50 @@
+a.table-addons-notice-button {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.2;
+	padding: 8px 16px;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	background-color: #2563EB;
+	color: #fff;
+	transition: all .3s;
+	display: inline-block;
+	margin-top: 10px;
+	font-style: normal;
+}
+a.table-addons-notice-button:hover{
+    background-color: #134cca;
+    color: #fff;
+}
+
+img.pro-feature-image {
+	opacity: 0.3;
+}
+
+@media only screen and (max-width: 767px){
+	/*-- Responsive --*/
+	table.tafe-table.auto-responsive-active, table.tafe-table.auto-responsive-active thead, table.tafe-table.auto-responsive-active tbody, table.tafe-table.auto-responsive-active td, table.tafe-table.auto-responsive-active tr {
+		display: block;
+	}
+	table.tafe-table.auto-responsive-active th {
+		display: none;
+	}
+	table.tafe-table.auto-responsive-active td {
+		padding-left: 50%;
+		position: relative;
+	}
+	table.tafe-table.auto-responsive-active td::before {
+		content: attr(data-label);
+		position: absolute;
+		left: 0;
+		padding: inherit;
+		padding-left: 15px;
+		top: 0;
+		width: 45%;
+		height: 100%;
+	}
+	table.tafe-table.auto-responsive-active td.td-content-type-image {
+		line-height: inherit;
+	}
+}

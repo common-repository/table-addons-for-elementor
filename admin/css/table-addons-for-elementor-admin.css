@@ -1,0 +1,179 @@
+.tafe-wrapper {
+	max-width: 1200px;
+    margin: auto;
+}
+.tafe-wrapper h1 {
+	margin-bottom: 20px;
+}
+.tafe-wrapper img {
+	max-width: 100%;
+}
+/*--- Box Info ---*/
+.tafe-box-info {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.tafe-box-info-single {
+	box-shadow: 0px 1px 2px rgba(23, 57, 97, 0.1);
+	background: #fff;
+	padding: 30px;
+	border-radius: 5px;
+}
+.tafe-box-info-single h4 {
+	font-size: 18px;
+	margin: 0 0 18px;
+	font-weight: 500;
+	color: #111;
+}
+.tafe-box-info-single p {
+	font-size: 14px;
+	color: #727272;
+	margin: 0 0 15px;
+}
+.tafe-btn {
+    position: relative;
+	background: #2563EB;
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 500;
+	border-radius: 5px;
+}
+.tafe-btn:hover {
+	background: #1a4da3;
+	color: #fff;
+}
+
+/*--- Table Library ---*/
+.tafe-h2 {
+	margin: 45px 0 25px;
+	font-size: 20px;
+}
+.tafe-table-library {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.tafe-table-library-single {
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 2px rgba(23, 57, 97, 0.1);
+}
+.tafe-table-library-img {
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	/* background-image: linear-gradient(to right top, #102c57, #004870, #00626a, #007748, #65851c); */
+	padding: 25px;
+	height: 240px;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+}
+.tafe-table-library-img img {
+	object-fit: contain;
+	overflow: hidden;
+	height: 190px;
+}
+.tafe-table-library-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.tafe-table-library-content a {
+	color: #2563EB;
+	font-size: 16px;
+}
+
+/*--- CTA ---*/
+.tafe-cta {
+    background: #d0e8ff;
+	/* background: #F1FAFF; */
+	/* background: #F7F4FF; */
+	padding: 30px 45px;
+	margin-top: 30px;
+	box-shadow: 0px 1px 2px rgba(23, 57, 97, 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    border-radius: 5px;
+}
+.tafe-cta-content h3 {
+	margin: 0 0 15px;
+	font-size: 18px;
+	color: #111;
+}
+.tafe-cta-content p {
+	margin: 0;
+	font-size: 14px;
+	color: #727272;
+}
+.tafe-cta .tafe-btn {
+	font-size: 16px;
+	padding: 20px 40px;
+    overflow: hidden;
+}
+.tafe-cta .tafe-btn:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 5s ease-in-out infinite;
+}
+
+@keyframes shiny-btn1 {
+    0% { transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+.tafe-cta-content ul {
+	width: 220px;
+	float: left;
+	list-style: none;
+	padding: 0;
+	font-size: 14px;
+	margin: 20px 0 0;
+}
+.tafe-cta-content ul.tafe-list-narrow{
+    width: 150px;
+
+}
+.tafe-cta-content ul li {
+	padding: 5px 0 5px 30px;
+	line-height: 1.5;
+	background: url('../img/check.svg') left center no-repeat;
+}
+
+/*-- Settings link --*/
+.tafe-get-pro {
+	color: #93003f;
+	font-weight: bold;
+}
+
+.tafe-update-warning__separator {
+	border: 1px solid #ffb900;
+	margin: 15px -12px;
+}
+.tafe-update-warning__message + p {
+	display: none;
+}
+.tafe-update-warning__message {
+	margin-bottom: 15px;
+}
+
+

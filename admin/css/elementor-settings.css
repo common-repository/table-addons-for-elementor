@@ -1,0 +1,31 @@
+.upgrade-pro-wrap {
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.upgrade-pro-wrap .left-col {
+	width: 70px;
+	text-align: left;
+	margin: 10px 0 0 40px;
+	float: left;
+}
+.upgrade-pro-wrap .right-col {
+	width: 110px;
+	float: left;
+	text-align: left;
+	margin-top: 10px;
+}
+.upgrade-pro-wrap li {
+	margin-bottom: 3px;
+	font-size: 11px;
+}
+.upgrade-pro-wrap li::before {
+	content: url(../img/check-small.svg);
+	margin-right: 3px;
+	position: relative;
+	top: 4px;
+}
+.upgrade-pro-wrap .elementor-button.go-pro {
+	background: #2563EB;
+	padding: 10px 16px;
+}

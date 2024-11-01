@@ -1,0 +1,254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Table Addons For Elementor 1.0.0\n"
+"POT-Creation-Date: 2020-08-26 02:23+0600\n"
+"PO-Revision-Date: 2020-08-26 02:24+0600\n"
+"Last-Translator: \n"
+"Language-Team: FusionPlugin <support@fusionplugin.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_attr__;esc_html__;_e;esc_attr_e;esc_html_e;_x;"
+"esc_attr_x;esc_html_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. translators: 1: Plugin name 2: Elementor
+#: includes/class-table-addons-for-elementor-extension.php:129
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-extension.php:130
+#: includes/class-table-addons-for-elementor-extension.php:154
+#: includes/class-table-addons-for-elementor-extension.php:179
+msgid "Table Addons for Elementor"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-extension.php:131
+#: includes/class-table-addons-for-elementor-extension.php:155
+msgid "Elementor"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: includes/class-table-addons-for-elementor-extension.php:153
+#: includes/class-table-addons-for-elementor-extension.php:178
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-extension.php:180
+msgid "PHP"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:41
+msgid "Table"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:85
+#: includes/class-table-addons-for-elementor-widget.php:234
+#: includes/class-table-addons-for-elementor-widget.php:237
+msgid "Table Header"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:94
+#: includes/class-table-addons-for-elementor-widget.php:271
+msgid "Text"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:97
+#: includes/class-table-addons-for-elementor-widget.php:98
+msgid "table data"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:106
+#: includes/class-table-addons-for-elementor-widget.php:287
+msgid "Advance Settings"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:108
+#: includes/class-table-addons-for-elementor-widget.php:119
+#: includes/class-table-addons-for-elementor-widget.php:142
+#: includes/class-table-addons-for-elementor-widget.php:264
+#: includes/class-table-addons-for-elementor-widget.php:289
+#: includes/class-table-addons-for-elementor-widget.php:301
+#: includes/class-table-addons-for-elementor-widget.php:326
+#: includes/class-table-addons-for-elementor-widget.php:608
+msgid "No"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:109
+#: includes/class-table-addons-for-elementor-widget.php:120
+#: includes/class-table-addons-for-elementor-widget.php:143
+#: includes/class-table-addons-for-elementor-widget.php:265
+#: includes/class-table-addons-for-elementor-widget.php:290
+#: includes/class-table-addons-for-elementor-widget.php:302
+#: includes/class-table-addons-for-elementor-widget.php:327
+#: includes/class-table-addons-for-elementor-widget.php:609
+msgid "Yes"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:114
+#: includes/class-table-addons-for-elementor-widget.php:296
+msgid "colSpan"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:125
+#: includes/class-table-addons-for-elementor-widget.php:308
+msgid "colSpan Number"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:131
+#: includes/class-table-addons-for-elementor-widget.php:132
+#: includes/class-table-addons-for-elementor-widget.php:314
+#: includes/class-table-addons-for-elementor-widget.php:315
+#: includes/class-table-addons-for-elementor-widget.php:339
+#: includes/class-table-addons-for-elementor-widget.php:340
+msgid "1"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:137
+msgid "Custom Width"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:148
+msgid "Width"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:176
+#: includes/class-table-addons-for-elementor-widget.php:346
+#: includes/class-table-addons-for-elementor-widget.php:476
+#: includes/class-table-addons-for-elementor-widget.php:546
+msgid "Alignment"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:183
+#: includes/class-table-addons-for-elementor-widget.php:353
+#: includes/class-table-addons-for-elementor-widget.php:480
+#: includes/class-table-addons-for-elementor-widget.php:550
+msgid "Left"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:187
+#: includes/class-table-addons-for-elementor-widget.php:357
+#: includes/class-table-addons-for-elementor-widget.php:484
+#: includes/class-table-addons-for-elementor-widget.php:554
+msgid "Center"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:191
+#: includes/class-table-addons-for-elementor-widget.php:361
+#: includes/class-table-addons-for-elementor-widget.php:488
+#: includes/class-table-addons-for-elementor-widget.php:558
+msgid "Right"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:195
+#: includes/class-table-addons-for-elementor-widget.php:365
+#: includes/class-table-addons-for-elementor-widget.php:492
+#: includes/class-table-addons-for-elementor-widget.php:562
+msgid "Justified"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:207
+#: includes/class-table-addons-for-elementor-widget.php:379
+msgid "Decoration"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:213
+#: includes/class-table-addons-for-elementor-widget.php:385
+msgid "Default"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:214
+#: includes/class-table-addons-for-elementor-widget.php:386
+msgid "Underline"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:215
+#: includes/class-table-addons-for-elementor-widget.php:387
+msgid "Overline"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:216
+#: includes/class-table-addons-for-elementor-widget.php:388
+msgid "Line Through"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:217
+#: includes/class-table-addons-for-elementor-widget.php:389
+msgid "None"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:229
+msgid "Table Header Cell"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:250
+msgid "Table Body"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:262
+msgid "New Row"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:274
+#: includes/class-table-addons-for-elementor-widget.php:275
+#: includes/class-table-addons-for-elementor-widget.php:422
+#: includes/class-table-addons-for-elementor-widget.php:425
+msgid "Table Data"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:321
+msgid "rowSpan"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:333
+msgid "rowSpan Number"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:417
+msgid "Table Body Cell"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:437
+msgid "General Style"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:445
+msgid "Inner Cell Padding"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:458
+msgid "Border"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:468
+msgid "Table Header Style"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:505
+#: includes/class-table-addons-for-elementor-widget.php:575
+msgid "Text Color"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:525
+#: includes/class-table-addons-for-elementor-widget.php:595
+msgid "Background Color"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:538
+msgid "Table Body Style"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:606
+msgid "Striped Background"
+msgstr ""
+
+#: includes/class-table-addons-for-elementor-widget.php:615
+msgid "Secondary Background Color"
+msgstr ""
